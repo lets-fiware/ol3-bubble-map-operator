@@ -1,6 +1,6 @@
 /*
  * ol3-bubble-map
- * https://github.com/fisuda/wirecloud.widget
+ * https://github.com/lets-fiware/ol3-bubble-map-operator
  *
  * Copyright (c) 2020 Kazuhito Suda
  * Licensed under the MIT license.
