@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<operator xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="FISUDA" name="ol3-bubble-map" version="0.1.0">
+
+    <details>
+        <title>ol3 bubble map</title>
+        <homepage>https://github.com/lets-fiware/ol3-bubble-map-operator</homepage>
+        <authors>Kazuhito Suda &lt;wirecloud@fisuda.jp&gt;</authors>
+        <email>kazuhito@fisuda.jp</email>
+        <image></image>
+        <smartphoneimage></smartphoneimage>
+        <description>ol3 bubble map operator</description>
+        <longdescription>DESCRIPTION.md</longdescription>
+        <changelog>doc/changelog.md</changelog>
+        <doc>doc/userguide.md</doc>
+        <license>MIT</license>
+        <issuetracker>https://github.com/lets-fiware/ol3-bubble-map-operator/issues</issuetracker>
+    </details>
+
+    <requirements>
+        <!-- Add any extra requirements here -->
+        <!-- <feature name="${feature-name}" /> -->
+    </requirements>
+
+    <preferences>
+        <preference name="radiusAttr" type="text" label="Radius attribute" description="Name of attribute that specifies the radius" default="radius" required="true"/>
+        <preference name="textAttr" type="text" label="Text attribute" description="Name of attribute that specifies the text" default="name"/>
+    </preferences>
+
+    <wiring>
+        <inputendpoint name="entityInput" type="text" label="Entities" description="Received entities will be transform into PoIs" friendcode="entity"/>
+        <outputendpoint name="poiOutput" type="text" label="PoIs" description="Transformed Points of Interests from the received entities" friendcode="poi"/>
+    </wiring>
+
+    <scripts>
+        <script src="js/main.js"/>
+    </scripts>
+
+</operator>
