@@ -1,6 +1,6 @@
 [![](https://nexus.lab.fiware.org/repository/raw/public/badges/chapters/visualization.svg)](https://www.fiware.org/developers/catalogue/)
 [![License: MIT](https://img.shields.io/github/license/lets-fiware/ol3-bubble-map-operator.svg)](https://opensource.org/licenses/MIT)<br/>
-[![Build Status](https://travis-ci.org/lets-fiware/ol3-bubble-map-operator.svg?branch=master)](https://travis-ci.org/lets-fiware/ol3-bubble-map-operator)
+[![Build Status](https://travis-ci.com/lets-fiware/ol3-bubble-map-operator.svg?branch=master)](https://travis-ci.com/lets-fiware/ol3-bubble-map-operator)
 [![Coverage Status](https://coveralls.io/repos/github/lets-fiware/ol3-bubble-map-operator/badge.svg)](https://coveralls.io/github/lets-fiware/ol3-bubble-map-operator)
 
 # ol3 bubble map operator
