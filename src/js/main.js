@@ -2,7 +2,7 @@
  * ol3-bubble-map
  * https://github.com/lets-fiware/ol3-bubble-map-operator
  *
- * Copyright (c) 2020 Kazuhito Suda
+ * Copyright (c) 2020-2023 Kazuhito Suda
  * Licensed under the MIT license.
  */
 
